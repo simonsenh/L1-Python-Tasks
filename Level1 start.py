@@ -1,9 +1,12 @@
+#init vaiables
 match_1 = 3
 match_2 = 6
 match_3 = 10
 match_4 = 10
 match_5 = 6
+#creates totals
 match_total = match_1 + match_2 + match_3 + match_4 + match_5
+#prints results
 print("THIS PIECE OF WORK HAS NO NAME AND NO PURPOSE")
 print("On match 1 they scored {}".format(match_1))
 print("On match 2 they scored {}".format(match_2))
