@@ -24,4 +24,11 @@ giftcard_henry = giftcard_henry - skin - weapon - vbucks
 print("Henry spent {} on a skin, {} on a weapon and {} on some vbucks in fortnite".format(skin, weapon, vbucks))
 print("Henry has {} on his gift card".format(giftcard_henry))
 
+#sum1ton
+print("")
+n = int(input("What is your number"))
+n += 1
+n = n/2
+n = n * ((n * 2) - 1)
+print("You chose {}".format(n))
 
