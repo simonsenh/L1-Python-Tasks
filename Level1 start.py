@@ -27,16 +27,17 @@ print("Henry has {} on his gift card".format(giftcard_henry))
 #sum1ton 1
 print("")
 n = int(input("What is your number"))
-n += 1
-n = n/2
-n = n * ((n * 2) - 1)
-print("You chose {}".format(n))
+print((n + 1) *(n / 2))
 
 #sum1ton 2
 print("")
 yes = 1
-no = yes * 12
-while yes < 13:
-   print("{} * 12 = {}".format(yes, no))
-   yes += 1
-   no = yes * 12
+no = 1
+maybe = 0
+while maybe < 12:
+    maybe = 1 + maybe
+    yes = 1
+    while yes < 13:
+         print("{} * {} = {}".format(yes,maybe ,no))
+         yes += 1
+         no = yes * maybe
