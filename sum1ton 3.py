@@ -1,9 +1,7 @@
-secret = 456
-i = 0
-a = 1
-while i == 0:
-    a = a + 1
-    if a == 456:
-        i = 1
-print("code is {}".format(a))
+
+for i in range(9999):
+    if i == 456:
+       a = str(i)
+       b = a.zfill(4)
+       print("your code is {}".format(b))
 
